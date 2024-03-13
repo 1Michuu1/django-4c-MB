@@ -6,3 +6,9 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("counter/", views.counter, name="")
 ]
+
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("calculator/", views.calculator, name="")
+]
